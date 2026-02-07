@@ -1,0 +1,4 @@
+.Link {
+  color: var(--theme-color-text);
+  font: var(--typo-text);
+}

@@ -1,0 +1,29 @@
+:root {
+  --font-source-code-pro: var(--font-source-code-pro-base), system-ui, sans-serif;
+  --font-source-sans: var(--font-source-sans-3-base), system-ui, sans-serif;
+  --font-open-sans: var(--font-open-sans-base), system-ui, sans-serif;
+  --font-inter: var(--font-inter-base), system-ui, sans-serif;
+
+  --typo-h1: 700 3.75rem/1.2 var(--font-source-code-pro);
+  --typo-h2: 700 3rem/1.2 var(--font-source-code-pro);
+  --typo-h3: 700 2.25rem/1.2 var(--font-source-code-pro);
+  --typo-h4: 700 1.5rem/1.2 var(--font-source-code-pro);
+  --typo-h5: 700 1rem/1.2 var(--font-source-code-pro);
+
+  --typo-lead: 700 1.5rem/1.2 var(--font-open-sans);
+  --typo-body: 400 1rem/1.2 var(--font-source-sans);
+  --typo-small: 400 0.75rem/1.2 var(--font-source-sans);
+  --typo-big: 400 1.125rem/1.2 var(--font-source-sans);
+
+  --typo-text: 400 0.75rem/1.2 var(--font-inter); 
+}
+
+html {
+  font-size: 100%;
+}
+
+@media screen and (max-width: 740px) {
+  html {
+    font-size: 60%;
+  }
+}

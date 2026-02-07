@@ -1,0 +1,19 @@
+.Tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  color: var(--theme-color-text);
+  background-color: var(--theme-background-tag);
+
+  width: fit-content;
+  padding: var(--padding-tag);
+
+  border-radius: 3px;
+  font: var(--typo-small);
+}
+
+.Tag__withIcon {
+  font: var(--typo-body);
+}

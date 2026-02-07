@@ -1,0 +1,23 @@
+:root {
+  --theme-background-page: var(--color-white-dark);
+  --theme-background-tag: var(--color-white-dark); 
+
+  --theme-color-text: var(--color-secondary);
+  --theme-color-icon: var(--color-white);
+  --theme-color-text-grey: var(--color-grey-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --theme-background-page: var(--color-secondary-light);
+    --theme-background-tag: var(--color-secondary-light);
+
+    --theme-color-text: var(--color-white);
+    --theme-color-icon: var(--color-secondary);
+    --theme-color-text-grey: var(--color-grey-dark);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+}

@@ -1,0 +1,30 @@
+:root {
+  --padding-body: 0 112px;
+  --padding-section: 92px 0;
+  --padding-navbar: 18px 28px;
+  --padding-intro-description: unset;
+  --padding-tag: 3px 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    --padding-body: 0 48px;
+    --padding-section: 80px 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  :root {
+    --padding-body: 0 20px;
+    --padding-section: 60px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    --padding-body: 0 4px;
+    --padding-navbar: 18px 24px;
+    --padding-section: 40px 0;
+    --padding-intro-description: 0 28px;
+  }
+}

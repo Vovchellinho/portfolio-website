@@ -1,0 +1,18 @@
+.Intro {
+  gap: 24px;
+}
+
+.Intro-Title {
+  color: var(--theme-color-text);
+  font: var(--typo-h1);
+  text-align: center;
+}
+
+.Intro-Description {
+  padding: var(--padding-intro-description);
+  color: var(--theme-color-text-grey);
+  font: var(--typo-lead);
+  text-align: justify;
+
+  max-width: 800px;
+}
