@@ -4,6 +4,7 @@
   --padding-navbar: 18px 28px;
   --padding-intro-description: unset;
   --padding-tag: 3px 8px;
+  --padding-tab: 30px 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,5 +27,6 @@
     --padding-navbar: 18px 24px;
     --padding-section: 40px 0;
     --padding-intro-description: 0 28px;
+    --padding-tab: 30px;
   }
 }

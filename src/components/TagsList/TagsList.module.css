@@ -1,0 +1,14 @@
+.TagsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 16px;
+}
+
+@media screen and (max-width: 740px) {
+  .TagsList {
+    gap: 8px;
+  }
+}

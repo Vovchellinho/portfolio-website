@@ -1,5 +1,5 @@
 :root {
-  --theme-background-page: var(--color-white-dark);
+  --theme-background-page: var(--color-white);
   --theme-background-tag: var(--color-white-dark); 
 
   --theme-color-text: var(--color-secondary);
@@ -9,7 +9,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --theme-background-page: var(--color-secondary-light);
+    --theme-background-page: var(--color-secondary);
     --theme-background-tag: var(--color-secondary-light);
 
     --theme-color-text: var(--color-white);

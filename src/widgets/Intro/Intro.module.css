@@ -11,8 +11,16 @@
 .Intro-Description {
   padding: var(--padding-intro-description);
   color: var(--theme-color-text-grey);
-  font: var(--typo-lead);
-  text-align: justify;
 
   max-width: 800px;
+}
+
+.Intro-DescriptionText {
+  font: var(--typo-lead);
+  text-align: justify;
+}
+
+.Intro-DescriptionTags {
+  margin-top: 24px;
+  padding: 12px 0;
 }
