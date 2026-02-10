@@ -1,4 +1,4 @@
-import { TIconName } from "@components/Icon";
+import { TIconName } from "@shared/ui/Icon";
 
 export type TCompanyId = 'google' | 'octupus' | 'varlik'
 
@@ -8,5 +8,5 @@ export interface ITabProps {
   icon: TIconName;
   company: string;
   position: string;
-  onClick: (id: string) => void;
+  onClick: (id: TCompanyId) => void;
 }

@@ -23,10 +23,10 @@
 
 @media screen and (max-width: 400px) {
   :root {
-    --padding-body: 0 4px;
-    --padding-navbar: 18px 24px;
+    --padding-body: 0 16px;
+    --padding-navbar: 18px 12px;
     --padding-section: 40px 0;
-    --padding-intro-description: 0 28px;
+    --padding-intro-description: 0 16px;
     --padding-tab: 30px;
   }
 }

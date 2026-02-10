@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Open_Sans, Source_Code_Pro, Source_Sans_3, Inter } from "next/font/google";
-import "./globals.css";
-import "./padding.css";
+import { ThemeProvider } from "@shared/provider/ThemeProvider";
+
 import "./colors.css";
+import "./themes.css";
 import "./transitions.css";
 import "./typo.css";
-import "./themes.css";
+import "./padding.css"
+import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
@@ -52,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={classNames}>
       <body>
-        {children}
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

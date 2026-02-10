@@ -1,7 +1,0 @@
-.Icon {
-  display: inline-block;
-  vertical-align: middle;
-  flex-shrink: 0;
-
-  color: var(--icon-color, currentColor);
-}

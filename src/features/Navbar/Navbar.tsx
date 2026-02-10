@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { ThemeToggle } from "./Navbar.components/ThemeToggle";
+import { Link } from "./Navbar.components/Link";
+import { Button } from "@shared/ui/Button";
+import { Icon } from "@shared/ui/Icon";
 
 import styles from './Navbar.module.css';
-import { Link } from "./Navbar.components/Link";
-import { Button } from "@components/Button";
-import { Icon } from "@components/Icon";
 
 export const Navbar = () => {
   return (

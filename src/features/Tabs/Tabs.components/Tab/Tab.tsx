@@ -1,8 +1,8 @@
 import { ITabProps } from "./Tab.typings";
+import { useCallback } from "react";
+import { Icon } from "@shared/ui/Icon";
 
 import styles from "./Tab.module.css";
-import { useCallback } from "react";
-import { Icon } from "@components/Icon";
 
 export const Tab = ({
   id,

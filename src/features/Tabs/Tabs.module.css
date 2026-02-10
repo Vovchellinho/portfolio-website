@@ -1,3 +1,31 @@
 .Tabs {
-  
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 32px;
+}
+
+.Tabs-Container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1;
+
+  max-width: 342px;
+}
+
+.Tabs-Content {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 400px) {
+  .Tabs-Container {
+    flex: 0;
+    flex-direction: row;
+    width: 100%;
+    max-width: unset;
+  }
 }

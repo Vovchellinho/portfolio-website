@@ -1,4 +1,4 @@
-import { Section } from "@components/Section";
+import { Section } from "@shared/ui/Section";
 
 import styles from "./Works.module.css";
 
