@@ -1,0 +1,48 @@
+.WorkCard {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+
+  padding: var(--padding-work-card);
+
+  border-radius: 10px;
+}
+
+.WorkCard:hover {
+  background-color: var(--theme-background-work-card);
+}
+
+.WorkCard-Top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.WorkCard-TopName {
+  font: var(--typo-h3);
+  color: var(--theme-color-text);
+}
+
+.WorkCard-TopYear {
+  font: var(--typo-body);
+  color: var(--theme-color-text-grey);
+}
+
+.WorkCard-Image {
+  width: 100%;
+  height: 372px;
+
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.WorkCard-Info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.WorkCard-InfoDescription {
+  font: var(--typo-body);
+  color: var(--theme-color-text);
+}
