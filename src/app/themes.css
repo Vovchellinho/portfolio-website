@@ -2,6 +2,7 @@
   --theme-background-page: var(--color-white);
   --theme-background-tag: var(--color-white-dark);
   --theme-background-work-card: var(--color-white-dark);
+  --theme-background-touch: var(--color-white-dark);
 
   --theme-color-text: var(--color-secondary);
   --theme-color-icon: var(--color-secondary);
@@ -12,6 +13,7 @@ html[data-theme="dark"] {
   --theme-background-page: var(--color-secondary);
   --theme-background-tag: var(--color-secondary-light);
   --theme-background-work-card: var(--color-secondary-light);
+  --theme-background-touch: var(--color-secondary-light);
 
   --theme-color-text: var(--color-white);
   --theme-color-icon: var(--color-white);

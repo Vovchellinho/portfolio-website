@@ -5,7 +5,7 @@ import styles from "./Works.module.css";
 
 export const Works = () => {
   return (
-    <Section className={styles['Works']}>
+    <Section className={styles['Works']} id="works">
       <h2 className={styles['Works-Title']}>My latest works</h2>
       <WorksList />
     </Section>

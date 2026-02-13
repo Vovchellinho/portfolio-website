@@ -6,6 +6,7 @@
   --padding-tag: 3px 8px;
   --padding-tab: 30px 20px;
   --padding-work-card: 26px;
+  --padding-touch-me: 80px 42px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -30,5 +31,6 @@
     --padding-intro-description: 0 16px;
     --padding-tab: 30px;
     --padding-work-card: 12px;
+    --padding-touch-me: 42px 16px;
   }
 }

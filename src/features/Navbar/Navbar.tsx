@@ -17,9 +17,9 @@ export const Navbar = () => {
       />
       <div className={styles['Navbar-Menu']}>
         <ul className={styles['Navbar-MenuList']}>
-          <li><Link href="#home">Home</Link></li>
           <li><Link href="#about">About</Link></li>
-          <li><Link href="#work">Work</Link></li>
+          <li><Link href="#experience">Experience</Link></li>
+          <li><Link href="#works">Works</Link></li>
         </ul>
         <div className={styles['Navbar-Actions']}>
           <ThemeToggle />

@@ -6,7 +6,7 @@ import styles from "./Intro.module.css";
 
 export const Intro = () => {
   return (
-    <Section className={styles['Intro']}>
+    <Section className={styles['Intro']} id="about">
       <h1 className={styles['Intro-Title']}>Hello, I’m<br/>Vladimir Otchertsov</h1>
       <div className={styles['Intro-Description']}>
         <h2 className={styles['Intro-DescriptionText']}>

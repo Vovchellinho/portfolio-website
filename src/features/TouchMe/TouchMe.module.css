@@ -1,0 +1,46 @@
+.TouchMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: var(--padding-touch-me);
+    
+    border-radius: 25px;
+    background-color: var(--theme-background-touch);
+}
+
+.TouchMe-Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.TouchMe-InfoTitle {
+    font: var(--typo-h1);
+
+    color: var(--theme-color-text);
+}
+
+.TouchMe-InfoLink {
+    font: var(--typo-h1);
+
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 780px) {
+  .TouchMe-InfoTitle,
+  .TouchMe-InfoLink {
+    font: var(--typo-h2);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .TouchMe-InfoTitle,
+  .TouchMe-InfoLink {
+    font: var(--typo-h5);
+  }
+}
